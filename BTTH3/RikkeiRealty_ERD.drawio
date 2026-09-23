@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2026-09-23T00:00:00.000Z" agent="Claude" version="24.7.0" type="device">
+  <diagram name="ERD - Quan ly can ho cho thue" id="erd-rikkeirealty">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- KHU_VUC -->
+        <mxCell id="khuvuc" value="KHU_VUC" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kv_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="khuvuc">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kv_c1" value="MaKhuVuc (PK)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4;align=left;spacingLeft=6;" vertex="1" parent="kv_r1">
+          <mxGeometry width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kv_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="khuvuc">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kv_c2" value="TenKhuVuc" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="kv_r2">
+          <mxGeometry width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- CAN_HO -->
+        <mxCell id="canho" value="CAN_HO" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="canho">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_c1" value="MaCH (PK)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4;align=left;spacingLeft=6;" vertex="1" parent="ch_r1">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="canho">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_c2" value="DienTich" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ch_r2">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="canho">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_c3" value="SoTang" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="ch_r3">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="canho">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch_c4" value="MaKhuVuc_FK (FK)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=2;align=left;spacingLeft=6;" vertex="1" parent="ch_r4">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- HOP_DONG_THUE -->
+        <mxCell id="hopdong" value="HOP_DONG_THUE" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="110" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hopdong">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_c1" value="MaHD (PK)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4;align=left;spacingLeft=6;" vertex="1" parent="hd_r1">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hopdong">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_c2" value="NgayBatDau" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="hd_r2">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hopdong">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_c3" value="NgayKetThuc" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="hd_r3">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hopdong">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_c4" value="MaCH_FK (FK)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=2;align=left;spacingLeft=6;" vertex="1" parent="hd_r4">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Relationship (b): KHU_VUC (1) -- (0..N) CAN_HO -->
+        <mxCell id="rel_b" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;startSize=14;endArrow=ERzeroToMany;endFill=0;endSize=14;strokeColor=#000000;" edge="1" parent="1" source="khuvuc" target="canho">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_b1" value="1" style="text;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="155" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_b2" value="0..N" style="text;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="155" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Relationship (a): CAN_HO (1) -- (0..1) HOP_DONG_THUE -->
+        <mxCell id="rel_a" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;startSize=14;endArrow=ERzeroToOne;endFill=0;endSize=14;strokeColor=#000000;" edge="1" parent="1" source="canho" target="hopdong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_a1" value="1" style="text;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="155" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_a2" value="0..1" style="text;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="810" y="155" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note1" value="(a) CAN_HO - HOP_DONG_THUE: 1-1 tuy chon (0..1). FK: MaCH_FK dat trong HOP_DONG_THUE.&#10;(b) KHU_VUC - CAN_HO: 1-N. FK: MaKhuVuc_FK dat trong CAN_HO." style="text;html=1;align=left;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="700" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
